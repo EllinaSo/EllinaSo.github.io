@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Section = ({ title, sectionName, children, imgSrc, imgClassName }) => (
-  <section name={sectionName} className="relative px-6 py-8 text-xl md:text-xl">
+  <section name={sectionName} className="relative px-6 py-10 text-xl md:text-xl">
     <img src={imgSrc} alt="" className={`absolute z-0 w-60 md:w-auto max-w-md top-0 -right-40 ${imgClassName}`} />
 
     <div className="relative z-10 max-w-screen-lg mx-auto">
