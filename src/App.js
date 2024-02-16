@@ -1,5 +1,6 @@
 import Home from './components/Home';
 import Experience from './components/Experience';
+import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <Home />
       <Experience />
+      <Footer />
     </div>
   );
 }
