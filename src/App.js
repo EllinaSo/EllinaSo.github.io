@@ -1,3 +1,4 @@
+import About from './components/About';
 import Home from './components/Home';
 import Experience from './components/Experience';
 import ContactForm from './components/ContactForm';
@@ -9,6 +10,7 @@ function App() {
     <div className="App background-slate-50 overflow-hidden">
       <NavBar />
       <Home />
+      <About />
       <Experience />
       <ContactForm />
       <Footer />
