@@ -1,8 +1,5 @@
 import React from 'react';
 import { FaLinkedinIn, FaEnvelope, FaGithub } from 'react-Icons/fa';
-import { FiDownload } from 'react-icons/fi';
-
-import Button from '../Button';
 
 const CONTACTS = [
   {
@@ -15,15 +12,8 @@ const CONTACTS = [
   { link: 'https://github.com/EllinaSo', label: 'GitHub link', Icon: <FaGithub size={35} />, newTab: true },
 ];
 
-const Socials = ({ withPortfolio }) => (
-  <div className="flex items-center gap-x-8 text-fuchsia-900">
-    {withPortfolio && (
-      <Button isLink href="/Ellina Soroka Resume.pdf" download>
-        Resume
-        <FiDownload />
-      </Button>
-    )}
-
+const Socials = () => (
+  <div className="flex gap-6 items-center sm:gap-8 text-fuchsia-900">
     {CONTACTS.map(({ link, Icon, newTab, label }, index) => (
       <a
         href={link}

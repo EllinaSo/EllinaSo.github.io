@@ -4,7 +4,7 @@ import Badge from '../../../shared/Badge';
 const List = ({ items, label, className, badges }) => (
   <div className={className}>
     <p className="mb-4 font-bold">{label}</p>
-    <ul className={`flex text-lg ${badges ? ' flex-wrap gap-4' : 'flex-col gap-2'}`}>
+    <ul className={`flex text-lg ${badges ? ' flex-wrap gap-2 md:gap-4' : 'flex-col gap-2'}`}>
       {items.map((item, index) =>
         badges ? (
           <li key={index} className="block">
