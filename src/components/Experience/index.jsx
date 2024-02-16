@@ -15,14 +15,14 @@ const JOBS = [
         I participated in various projects for clients in medium and large businesses in industries such as banking,
         service, enterprise and others. I took on roles as:
         <p className="mt-2">
-          ⌨️ <span className="underline">Developer</span>. I've participated in over 10 projects spanning diverse stages
-          of development and technology stacks. This taught me to excel in fast-paced environments and boosted my
-          problem-solving skills!
+          ⌨️ <span className="underline">Developer</span>. I've participated in over 10 projects with diverse stages of
+          development and technology stacks. This taught me to complete my tasks even in a fast-paced environment and
+          boosted my problem-solving skills!
         </p>
         <p className="mt-2">
-          💡 <span className="underline">Mentor</span>. I enthusiastically mentored three potential hires, two of whom
-          were successfully onboarded and hired by the company. I also facilitated onboarding for new developers joining
-          the project.
+          💡 <span className="underline">Mentor</span>. I enjoyed mentoring three potential hires, two of whom were
+          successfully onboarded and hired by the company. I also facilitated onboarding for new developers joining
+          projects.
         </p>
         <p className="mt-2">
           ⏳ <span className="underline">Project evaluation expert</span>. Participated in 15+ project assessments,
@@ -43,8 +43,8 @@ const JOBS = [
         and take full responsibility for my tasks. Completing the internship successfully, I took on an urgent project —
         a website for a residential complex developer. Despite the tight deadline, I delivered a dynamic webpage,
         earning a regular client. <br />
-        This experience fueled my passion for design, web development, and digital marketing, driving me to exceed
-        expectations in every project.
+        This experience fueled my passion for design and web development, driving me to exceed expectations in every
+        project.
       </>
     ),
   },
