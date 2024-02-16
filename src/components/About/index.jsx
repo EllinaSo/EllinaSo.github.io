@@ -5,7 +5,7 @@ import List from './components/List';
 import { SKILLS, ACTIONS, TEAMWORK } from './constants';
 
 const About = () => (
-  <Section title="Who am I?" sectionName="about" imgSrc={puzzle} imgClassName="rotate-[110deg]">
+  <Section title="Who am I?" sectionName="about" imgSrc={puzzle} imgClassName="right-auto -left-36">
     <p className="mb-2">
       Hey there! I'm Ellina, Front-end Developer with 4 years' experience. Currently, I'm actively studying back-end to
       become a <span className="font-bold">Full-stack developer and seeking opportunities in the field</span>.

@@ -6,7 +6,12 @@ import Socials from '../shared/Socials';
 import Button from '../shared/Button';
 
 const ContactForm = () => (
-  <Section title="Contact me!" sectionName="contact" imgSrc={message} imgClassName="rotate-[-10deg] right-20 max-w-xs">
+  <Section
+    title="Contact me!"
+    sectionName="contact"
+    imgSrc={message}
+    imgClassName="rotate-[-10deg] top-auto -bottom-20 -right-20"
+  >
     <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
       <div>
         <p className="mb-4">

@@ -7,7 +7,12 @@ import Projects from './components/Projects';
 import { LIST_2020 } from './constants';
 
 const Portfolio = () => (
-  <Section title="Things to see" sectionName="portfolio" imgSrc={zoom} imgClassName="rotate-[-30deg] right-20 max-w-xs">
+  <Section
+    title="Things to see"
+    sectionName="portfolio"
+    imgSrc={zoom}
+    imgClassName="rotate-[-10deg] right-auto -left-20"
+  >
     <div className="flex flex-col gap-8">
       <div>
         <Badge>2024</Badge>
