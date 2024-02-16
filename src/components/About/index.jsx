@@ -2,38 +2,7 @@ import React from 'react';
 import Section from '../shared/Section';
 import puzzle from '../../assets/puzzle.webp';
 import List from './components/List';
-
-const SKILLS = [
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'Effector',
-  'SCSS / SASS',
-  'Tailwind CSS',
-  'Material UI',
-  'styled-components',
-  'Webpack',
-  'Rollup',
-  'GitLab',
-  'GitHub',
-  'Storybook',
-  'Jest',
-  'React Testing Library',
-  'Git',
-  'Postman',
-  'Jira',
-];
-
-const ACTIONS = [
-  'Solve problems with attention to details',
-  'Prioritize tasks and manage time efficiently',
-  'Stay calm and positive',
-];
-
-const TEAMWORK = ['Collaborate with team members', 'Support and encourage my colleagues', 'Contribute creative ideas'];
+import { SKILLS, ACTIONS, TEAMWORK } from './constants';
 
 const About = () => (
   <Section title="Who am I?" sectionName="about" imgSrc={puzzle} imgClassName="rotate-[110deg]">

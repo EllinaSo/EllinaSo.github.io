@@ -20,36 +20,36 @@ const ContactForm = () => (
 
       <form action="https://getform.io/f/PdyZEPeQ" method="POST" className="flex gap-4 flex-col">
         <div>
-          <label for="name" class="block mb-2 font-bold">
+          <label htmlFor="name" className="block mb-2 font-bold">
             Your name
           </label>
           <input
             id="name"
             name="name"
-            autocomplete="name"
+            autoComplete="name"
             placeholder="Enter your name"
             required
-            className="w-full rounded-2xl p-2 ring-1 ring-inset ring-fuchsia-800/40 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-fuchsia-800 outline-none invalid:border-red-500"
+            className="w-full rounded-3xl py-2 px-3 ring-2 ring-inset ring-fuchsia-800/40 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-fuchsia-800 outline-none invalid:border-red-500"
           />
         </div>
         <div>
-          <label for="email" class="block mb-2 font-bold">
+          <label htmlFor="email" className="block mb-2 font-bold">
             Email address
           </label>
-          <div class="mt-2">
+          <div className="mt-2">
             <input
               id="email"
               name="email"
               type="email"
-              autocomplete="email"
+              autoComplete="email"
               placeholder="Enter your email"
               required
-              className="w-full rounded-2xl p-2 ring-1 ring-inset ring-fuchsia-800/40 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-fuchsia-800 outline-none invalid:border-red-500"
+              className="w-full rounded-3xl py-2 px-3 ring-2 ring-inset ring-fuchsia-800/40 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-fuchsia-800 outline-none invalid:border-red-500"
             />
           </div>
         </div>
         <div>
-          <label for="message" class="block mb-2 font-bold">
+          <label htmlFor="message" className="block mb-2 font-bold">
             Message
           </label>
           <textarea
@@ -58,7 +58,7 @@ const ContactForm = () => (
             rows="3"
             placeholder="Enter your message"
             required
-            className="w-full min-h-12 rounded-2xl p-2 ring-1 ring-inset ring-fuchsia-800/40 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-fuchsia-800 outline-none invalid:border-red-500"
+            className="w-full min-h-12 rounded-3xl py-2 px-3 ring-2 ring-inset ring-fuchsia-800/40 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-fuchsia-800 outline-none invalid:border-red-500"
           />
         </div>
         <Button className="self-start">
