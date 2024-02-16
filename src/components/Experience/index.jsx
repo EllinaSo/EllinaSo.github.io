@@ -56,7 +56,7 @@ const JOBS = [
 ];
 const Experience = () => (
   <Section title="My path" sectionName="experience" imgSrc={time} imgClassName="rotate-[-20deg] right-20 max-w-xs">
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-6">
       {JOBS.map((job) => (
         <Job key={job.companyName} {...job} />
       ))}
