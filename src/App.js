@@ -8,7 +8,7 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div className="App background-slate-50 overflow-hidden">
+    <div className="App bg-slate-50 overflow-hidden">
       <NavBar />
       <Home />
       <About />
