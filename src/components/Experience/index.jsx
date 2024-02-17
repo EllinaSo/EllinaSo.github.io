@@ -12,8 +12,10 @@ const JOBS = [
       'The company develops custom IT software solutions for companies in Russia, the USA, and Europe.',
     jobDescription: (
       <>
-        I participated in various projects for clients in medium and large businesses in industries such as banking,
-        service, enterprise and others. I took on roles as:
+        <p>
+          I participated in various projects for clients in medium and large businesses in industries such as banking,
+          service, enterprise and others. I took on roles as:
+        </p>
         <p className="mt-2">
           ⌨️ <span className="underline">Developer</span>. I've participated in over 10 projects with diverse stages of
           development and technology stacks. This taught me to complete my tasks even in a fast-paced environment and
@@ -39,12 +41,16 @@ const JOBS = [
       'The company specializes in business solutions in the fields of design, web development, and digital marketing.',
     jobDescription: (
       <>
-        Starting as an intern while juggling both work and university, I quickly learned to manage my time effectively
-        and take full responsibility for my tasks. Completing the internship successfully, I took on an urgent project —
-        a website for a residential complex developer. Despite the tight deadline, I delivered a dynamic webpage,
-        earning a regular client. <br />
-        This experience fueled my passion for design and web development, driving me to exceed expectations in every
-        project.
+        <p>
+          Starting as an intern while juggling both work and university, I quickly learned to manage my time effectively
+          and take full responsibility for my tasks. Completing the internship successfully, I took on an urgent project
+          — a website for a residential complex developer. Despite the tight deadline, I delivered a dynamic webpage,
+          earning a regular client.
+        </p>
+        <p>
+          This experience fueled my passion for design and web development, driving me to exceed expectations in every
+          project.
+        </p>
       </>
     ),
   },

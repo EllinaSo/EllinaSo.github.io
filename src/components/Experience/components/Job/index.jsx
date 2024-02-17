@@ -8,7 +8,7 @@ const Job = ({ period, jobTitle, companyName, companyDescription, jobDescription
       <span className="ml-2 mb-2 font-bold">{jobTitle}</span> at {companyName}
     </p>
     <p className="mb-2 text-gray-600 text-sm">{companyDescription}</p>
-    <p>{jobDescription}</p>
+    <div>{jobDescription}</div>
   </div>
 );
 

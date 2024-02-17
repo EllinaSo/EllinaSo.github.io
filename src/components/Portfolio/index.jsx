@@ -18,7 +18,7 @@ const Portfolio = () => (
         <Badge>2024</Badge>
         <p className="mt-2">
           My recent works are coming very soon! <br /> I wish there were more of them, but I dedicated my all time to
-          commercial projects while maintaining a work-life balance. Thank you for understanding! 😊
+          commercial projects with NDA while maintaining a work-life balance. Thank you for understanding! 😊
         </p>
       </div>
 

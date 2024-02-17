@@ -15,7 +15,7 @@ const NavBar = () => {
       {isOpen && <MobileNav list={LINKS} onClose={() => setIsOpen(false)} />}
 
       <button
-        className="p-3 z-10 ml-auto text-fuchsia-900 hover:scale-105 focus:scale-105 sm:hidden"
+        className="p-3 z-10 ml-auto text-fuchsia-900 hover:scale-110 focus:scale-110 sm:hidden outline-none duration-200"
         onClick={() => setIsOpen((prev) => !prev)}
       >
         {isOpen ? <FaTimes size={20} /> : <FaBars size={20} />}
