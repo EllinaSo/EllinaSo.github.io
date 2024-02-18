@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7924ee94.css",
+    "main.js": "/static/js/main.335aeeef.js",
+    "static/media/SurfClub.jpg": "/static/media/SurfClub.19ce5891c439902259b1.jpg",
+    "static/media/Ceramico.jpg": "/static/media/Ceramico.3fb3d1179343bebb4686.jpg",
+    "static/media/Mishka.jpg": "/static/media/Mishka.663146d95befef90dc39.jpg",
+    "static/media/Dent.jpg": "/static/media/Dent.b8a17b02f5f713176ca7.jpg",
+    "static/media/cube.webp": "/static/media/cube.4e3093922f6cd8ba8246.webp",
+    "static/media/puzzle.webp": "/static/media/puzzle.6b1657dfa994dec7c4e9.webp",
+    "static/media/time.webp": "/static/media/time.5d44ebfa14fad9e7bf1f.webp",
+    "static/media/message.webp": "/static/media/message.4bd6c4c3eac018ac586c.webp",
+    "static/media/zoom.webp": "/static/media/zoom.f562c4e229711fa6c5b4.webp",
+    "index.html": "/index.html",
+    "main.7924ee94.css.map": "/static/css/main.7924ee94.css.map",
+    "main.335aeeef.js.map": "/static/js/main.335aeeef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7924ee94.css",
+    "static/js/main.335aeeef.js"
+  ]
+}
