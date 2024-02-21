@@ -3,6 +3,7 @@ import Dent from '../img/Dent.jpg';
 import Mishka from '../img/Mishka.jpg';
 import SurfClub from '../img/SurfClub.jpg';
 import Infomatika from '../img/Infomatika.jpg';
+import Mementos from '../img/Mementos.jpg';
 
 const getInnerPortfolioLink = (project) => `${process.env.PUBLIC_URL}/portfolio/${project}/`;
 
@@ -44,5 +45,16 @@ export const LIST_2020 = [
     img: Infomatika,
     src: 'https://github.com/EllinaSo/match-schedule',
     demo: 'https://ellinaso.github.io/match-schedule/',
+  },
+];
+
+export const LIST_2024 = [
+  {
+    title: 'mementos',
+    description:
+      'This project is a basic full-stack social media app enabling users to share interesting life events. Its aim is to learn the MERN stack. Additionally, Redux, Material UI, and Axios were used.',
+    img: Mementos,
+    demo: 'https://ellinaso.github.io/mementos-app/',
+    src: 'https://github.com/EllinaSo/mementos-app/',
   },
 ];
