@@ -6,7 +6,7 @@ import time from '../../assets/time.webp';
 const JOBS = [
   {
     period: 'Aug 2020 - Nov 2023',
-    jobTitle: 'Front-end Developer',
+    jobTitle: 'Frontend Developer',
     companyName: 'SimbirSoft, Russia',
     companyDescription:
       'The company develops custom IT software solutions for companies in Russia, the USA, and Europe.',
@@ -35,7 +35,7 @@ const JOBS = [
   },
   {
     period: 'Oct 2019 - Feb 2020',
-    jobTitle: 'Front-end Developer',
+    jobTitle: 'Frontend Developer',
     companyName: 'Imperium Web, Russia',
     companyDescription:
       'The company specializes in business solutions in the fields of design, web development, and digital marketing.',

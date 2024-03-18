@@ -7,11 +7,11 @@ import { SKILLS, ACTIONS, TEAMWORK } from './constants';
 const About = () => (
   <Section title="Who am I?" sectionName="about" imgSrc={puzzle} imgClassName="right-auto -left-36">
     <p className="mb-2">
-      Hey there! I'm Ellina, Front-end Developer with 4 years' experience. Currently, I'm actively studying back-end to
+      Hey there! I'm Ellina, Frontend Developer with 4 years' experience. Currently, I'm actively studying backend to
       become a <span className="font-bold">Full-stack developer and seeking opportunities in the field</span>.
     </p>
     <p className="mb-4 md:mb-8">
-      I started from scratch, learning front-end development on my own, and now, after four years of working on various
+      I started from scratch, learning frontend development on my own, and now, after four years of working on various
       projects, I feel ready for new challenges. Working on projects I'm proud of has given me a lot of experience, but
       now I'm eager to expand my horizons and dive into new technologies.
     </p>
